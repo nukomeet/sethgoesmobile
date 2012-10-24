@@ -1,8 +1,10 @@
 # Seth goes mobile
 
-Seth wants a mobile app for his blog. Let's crowdsource it!
+Seth would like a mobile app for his blog. Let's crowdsource it!
 
-It is still ugly, buggy, etc, but at the same time open source and somehow cross platform. Better design would be nice.
+Full story is [here][http://nukomeet.com/2012/10/Lets_crowdsource_a_mobile_app_for_Seth_Godin/].
+
+It is still ugly, buggy, etc, but at the same time open source and somehow cross platform. Better design would be nice. It can be used to read any RSS feed, we just hardcoded Seth's blog in it.
 
 ## Technologies
 
