@@ -1,0 +1,23 @@
+extends layout
+block content
+  div(data-role='page', id='list')
+    div(data-role='header')
+      h1 Seth goes mobile
+    div(data-role='content')
+      ul(data-role='listview', data-filter='true')
+        each item, i in items
+          li
+            a(href="#article#{i}")
+              h3= item.title
+              p= item.summary
+    div(data-role='footer', data-position='fixed')
+      h4
+        a(href='http://sethgodin.typepad.com') sethgodin.typepad.com
+  each item, i in items
+    div(data-role='page', id="article#{i}")
+      div(data-role='header', data-position='inline')
+        a(href='#list', data-role='button', data-icon='back', data-back='true') Back
+        h1= item.title
+        a(href="#{item.link}", data-role='button', data-icon='forward') Go to article
+      div(data-role='content')
+        p!= item.description
